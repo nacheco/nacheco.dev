@@ -1,24 +1,19 @@
-import {
-  Hero,
-} from "@/sections";
-
-// import { groq } from "next-sanity";
-// import { client } from "@/sanity/lib/client";
-
-import { Footer, ScrollToTop, NavigationBar, ScrollUp } from "@/components";
+import { Hero } from "@/sections";
+import { groq } from "next-sanity";
+import { client } from "@/sanity/lib/client";
+import { Footer, ScrollToTop, NavigationBar } from "@/components";
 
 const Home = async () => {
-
-  // const heroUrl = await client.fetch(
-  //   groq`*[_type == 'hero'][0].mainMedia.asset->url`,
-  //   { next: { revalidate: 30 } }
-  // );
+  const query = groq`*[_type == 'hero'][0].mainImage.asset->url`;
+  const heroUrl = await client.fetch(query, { next: { revalidate: 30 } });
 
   return (
     <>
       <NavigationBar />
-      <Hero />
-      <ScrollToTop />
+      <main>
+        <Hero heroUrl={heroUrl} />
+        <ScrollToTop />
+      </main>
       <Footer />
     </>
   );

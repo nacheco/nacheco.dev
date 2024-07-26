@@ -40,6 +40,22 @@
         "async": false
       }
     },
+    "(app-client)/./app/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./sections/index.ts": {
       "*": {
         "id": "(sc_client)/./sections/index.ts",
@@ -80,9 +96,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/layout.tsx": {
+    "(app-client)/./app/(admin)/studio/[[...index]]/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./app/(admin)/studio/[[...index]]/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -171,6 +187,30 @@
       ],
       "async": false
     },
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/layout.tsx": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/(home)/page:static/chunks/app/(home)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/(home)/page:static/chunks/app/(home)/page.js"
+      ],
+      "async": false
+    },
     "/Users/nathan/Desktop/Headstarter/Personal-Site/sections/index.ts": {
       "id": "(app-client)/./sections/index.ts",
       "name": "*",
@@ -211,19 +251,22 @@
       ],
       "async": false
     },
-    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/layout.tsx": {
-      "id": "(app-client)/./app/layout.tsx",
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(admin)/studio/[[...index]]/page.tsx": {
+      "id": "(app-client)/./app/(admin)/studio/[[...index]]/page.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/(admin)/studio/[[...index]]/page:static/chunks/app/(admin)/studio/[[...index]]/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/page": [],
     "/Users/nathan/Desktop/Headstarter/Personal-Site/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/about/page": [],
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/page": [],
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(admin)/studio/[[...index]]/page": [],
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(admin)/studio/[[...index]]/layout": []
   }
 }

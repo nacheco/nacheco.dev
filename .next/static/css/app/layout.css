@@ -1427,6 +1427,12 @@ input#checkboxLabel:checked ~ .box span{
 .mt-px{
   margin-top: 1px;
 }
+.mt-24{
+  margin-top: 6rem;
+}
+.mt-52{
+  margin-top: 13rem;
+}
 .box-border{
   box-sizing: border-box;
 }
@@ -1567,6 +1573,12 @@ input#checkboxLabel:checked ~ .box span{
 }
 .h-screen{
   height: 100vh;
+}
+.h-\[60vh\]{
+  height: 60vh;
+}
+.h-\[40vh\]{
+  height: 40vh;
 }
 .max-h-96{
   max-height: 24rem;
@@ -3463,6 +3475,15 @@ input#checkboxLabel:checked ~ .box span{
 .pt-px{
   padding-top: 1px;
 }
+.pt-\[120px\]{
+  padding-top: 120px;
+}
+.pt-\[80px\]{
+  padding-top: 80px;
+}
+.pt-\[40px\]{
+  padding-top: 40px;
+}
 .text-left{
   text-align: left;
 }
@@ -3580,6 +3601,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .tracking-normal{
   letter-spacing: 0em;
+}
+.tracking-tight{
+  letter-spacing: -0.025em;
 }
 .\!text-black{
   --tw-text-opacity: 1 !important;
@@ -3928,6 +3952,10 @@ input#checkboxLabel:checked ~ .box span{
 .text-yellow-900{
   --tw-text-opacity: 1;
   color: rgb(99 49 18 / var(--tw-text-opacity));
+}
+.text-\[\#00ff99\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 255 153 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -8602,8 +8630,17 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
     padding-right: 1rem;
   }
 
+  .sm\:px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .sm\:pr-8{
     padding-right: 2rem;
+  }
+
+  .sm\:pt-\[60px\]{
+    padding-top: 60px;
   }
 
   .sm\:text-center{
@@ -8699,6 +8736,10 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
 
   .md\:h-full{
     height: 100%;
+  }
+
+  .md\:h-\[60vh\]{
+    height: 60vh;
   }
 
   .md\:w-2\/3{
@@ -8828,6 +8869,14 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
 
   .md\:pt-\[150px\]{
     padding-top: 150px;
+  }
+
+  .md\:pt-\[180px\]{
+    padding-top: 180px;
+  }
+
+  .md\:pt-\[120px\]{
+    padding-top: 120px;
   }
 
   .md\:text-2xl{
@@ -9118,6 +9167,14 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
     padding-top: 180px;
   }
 
+  .xl\:pt-\[200px\]{
+    padding-top: 200px;
+  }
+
+  .xl\:pt-\[160px\]{
+    padding-top: 160px;
+  }
+
   .xl\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
@@ -9197,6 +9254,14 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
 
   .\32xl\:pt-\[210px\]{
     padding-top: 210px;
+  }
+
+  .\32xl\:pt-\[240px\]{
+    padding-top: 240px;
+  }
+
+  .\32xl\:pt-\[200px\]{
+    padding-top: 200px;
   }
 }
 

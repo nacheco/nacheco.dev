@@ -3,6 +3,8 @@ import ScrollToTop from "./ScrollToTop";
 import ScrollUp from "./Common/ScrollUp";
 import SectionHeading from "./SectionHeading";
 import NavigationBar from "./NavigationBar";
+import HeroHeading from "./HeroHeading";
+import HeroImage from "./HeroImage";
 
 export {
   NavigationBar,
@@ -10,4 +12,6 @@ export {
   ScrollToTop,
   SectionHeading,
   ScrollUp,
+  HeroHeading,
+  HeroImage,
 };
