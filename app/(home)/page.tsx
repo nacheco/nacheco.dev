@@ -1,4 +1,4 @@
-import { Hero } from "@/sections";
+import { Hero, ProjectList } from "@/sections";
 import { groq } from "next-sanity";
 import { client } from "@/sanity/lib/client";
 import { Footer, ScrollToTop, NavigationBar } from "@/components";
@@ -12,11 +12,14 @@ const Home = async () => {
       <NavigationBar />
       <main>
         <Hero heroUrl={heroUrl} />
+        <ProjectList />
         <ScrollToTop />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
 
 export default Home;
+
+

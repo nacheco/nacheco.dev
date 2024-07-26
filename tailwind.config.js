@@ -19,6 +19,7 @@ module.exports = withMT({
       current: "currentColor",
       transparent: "transparent",
       white: "#FFFFFF",
+      grey: "#AFAFAF",
       dark: "#070511",
     },
     screens: {
@@ -41,6 +42,9 @@ module.exports = withMT({
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
       backgroundImage: (theme) => ({
         ministriesGra: "url('/images/Shadow-Blue.svg')",
         shadowDark: "url('/images/Shadow-Dark.webp')",
