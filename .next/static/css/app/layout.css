@@ -8067,6 +8067,11 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
   color: rgb(99 49 18 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-dark){
+  --tw-text-opacity: 1;
+  color: rgb(7 5 17 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder{
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
@@ -9115,6 +9120,11 @@ background: linear-gradient(180deg, rgba(153,219,255,1) 0%, rgba(229,246,255,1) 
 
   .lg\:text-\[110px\]{
     font-size: 110px;
+  }
+
+  .lg\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:opacity-0{

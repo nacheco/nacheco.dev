@@ -264,8 +264,8 @@
     "/Users/nathan/Desktop/Headstarter/Personal-Site/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/about/page": [],
     "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/page": [],
+    "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(home)/about/page": [],
     "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(admin)/studio/[[...index]]/page": [],
     "/Users/nathan/Desktop/Headstarter/Personal-Site/app/(admin)/studio/[[...index]]/layout": []
   }
